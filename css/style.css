@@ -1,0 +1,906 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family:'Merriweather', serif;
+	color: #222;
+}
+
+/*main body of site for scaling*/
+
+.main-body-site{
+	height: 95% !important;
+	width: 95% !important;
+	padding-left: 5% !important;
+}
+
+/* navigation styles*/
+.navbar{
+	padding: .8rem;
+}
+
+.navbar-nav li{
+	padding-right: 20px;
+}
+
+.nav-link {
+	font-size: 1.1em !important;
+}
+/* nav end*/
+
+/* carousel*/
+.carousel-inner img{
+	width:100%;
+	height:100%;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-right:5%;
+	padding-left:5%;
+    margin-left:2%;
+	text-align: center;
+
+
+}
+/*main home page carousel*/
+#main-carousel{
+	width:90%;
+	height:50%;
+	text-align: center;
+}
+
+
+/* carousel end*/
+
+/* cards quality childcare*/
+
+.container{
+    margin-top:8%;
+    margin-left:8%;
+}
+.card{
+    
+    width: 18rem;
+    min-width: 10rem;
+    margin-bottom: 10% ;
+    height: 30rem;
+    
+}
+
+.card-1{
+    
+    width: 20rem !important;
+    min-width: 10rem;
+    margin-bottom: 10% ;
+    height: 35rem;
+    
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+     box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+
+/* card image transition Daily Tution on youtube*/
+
+.inner{ 
+    overflow: hidden;
+
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+
+.inner:hover img { 
+    transform: scale(1.2)
+    
+        
+}
+
+/*buttons on cards*/
+.btn{
+    align-content: flex-end;
+}
+
+/*card transitions codersbite youtube responsive cards bootstrap*/
+.card-body{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #4C63AD !important;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+
+.card-body:hover{
+    background-color: #AB05F2;
+    color:#fff;
+    border-radius: 5px;
+    border:none;
+    
+}
+
+/*jumbotron*/
+
+#main-tagline {
+	font-family: 'Pacifico', cursive !important;
+	color:#fff;
+	text-align: center;
+	font-size: 4.5rem !important;
+}
+
+#second-tagline {
+	font-family: 'Pacifico', cursive !important;
+	color:#000;
+	font-size: 2.8rem !important;
+	padding-left: 40%;
+}
+.jumbotron{
+	background-color: #4C63AD !important;
+	padding:1rem;
+	border-radius: 0.5;
+}
+/*jumbotron end*/
+
+/*padding class*/
+
+.padding{
+	padding-bottom: 2rem;
+}
+
+/* welcome section*/
+
+.welcome{
+	padding-top: 2rem;
+	margin: 0 auto;
+}
+
+
+
+/*welcome end*/
+
+/*Three column section*/
+/*font awesome index page*/
+.fa-comments{
+	font-size:4.5rem !important;
+	color: #4C63AD !important;
+}
+
+.fa-search{
+	font-size:4.5rem !important;
+	color: #4C63AD !important;
+}
+
+.fa-puzzle-piece{
+	font-size:4.5rem !important;
+	color: #4C63AD !important;
+}
+
+/*font-awesome about*/
+.fa-lightbulb{
+	font-size:7.5rem !important;
+	color: #4C63AD !important;
+    padding-bottom: 5%;
+}
+
+.fa-clipboard-check {
+	font-size:7.5rem !important;
+	color: #4C63AD !important;
+    padding-bottom: 5%;
+}
+
+.fa-child{
+	font-size:7.5rem !important;
+	color: #4C63AD !important;
+    padding-bottom: 5%;
+}
+
+
+/*   */
+
+.three-cols{
+	padding-top: 1%;
+	padding-bottom: 5%;
+	font-family: 'Libre Baskerville', sans-serif !important;
+}
+
+.lead{
+	font-family:'Merriweather', serif;
+	font-size: 1.5rem !important;
+	color: #2a2a2a !important;
+
+
+}
+/* three col with small writing on index page*/
+.three-cols{
+	font-family:'Merriweather', serif;
+	font-size: 1.5rem !important;
+	color: #2a2a2a !important;
+	
+}
+
+/*1st paragraph*/
+
+.p-3col{
+	font-family:'Merriweather', serif;
+	font-size: 1.3rem !important;
+	color: #2a2a2a !important;
+	
+}
+/* 2nd and 3rd paragraphs*/
+.p-3cols{
+	font-family:'Merriweather', serif;
+	font-size: 1.3rem !important;
+	color: #2a2a2a !important;
+	padding-top: 6%;
+	
+}
+
+/* Three colunm end*/
+
+/*Two columns*/
+.ofsted{
+	font-family:'Merriweather', serif;
+	font-size: 2.5rem !important;
+	background-color:  #4C63AD !important;
+	color:#fff !important;
+	padding-left: 15% !important;
+	padding-right: 20% !important;
+	margin-bottom: 5% !important; 
+	margin-top: 5%;
+	text-align: center;
+	border-radius: 0.5 !important;
+
+
+}
+
+.p-ofsted{
+	font-family:'Merriweather', serif;
+	font-size: 1.2rem !important;
+	color:#2a2a2a !important;
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+
+
+
+}
+
+.ofsted-section{
+	padding-top: 2% !important;
+	padding-bottom:2% !important;
+
+}
+	/*Two Column end*/
+
+/* services section*/
+
+
+.quality{
+	font-family:'Merriweather', serif;
+	color:#2a2a2a !important;
+	padding-top: 2% !important;
+	text-align: center;
+}
+
+.services
+{
+	background-color:  #4C63AD !important;
+	font-family:'Merriweather', serif;
+	font-size: 2.5rem !important;
+	background-color:  #4C63AD !important;
+	color:#fff !important;
+}
+
+/*Qualifications*/
+
+.p-qual{
+	font-family:'Merriweather', serif;
+	font-size: 1.2rem !important;
+	color:#2a2a2a !important;
+	padding-top: 0% !important;
+	padding-bottom: 2% !important;
+
+
+}
+
+
+.qual-section{
+	padding-top: 1% !important;
+	padding-bottom: 1% !important;
+}
+/*spacing header rule*/
+
+.my-4{
+	padding-top: 0% !important;
+	padding-bottom: 0% !important;
+}
+
+/*footer*/
+.footer-section{
+	padding-top: 7.6% !important;
+}
+footer {
+	background-color:#3f3f3f;
+	padding-top: 2rem;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+footer a {
+	color:#d5d5d5;
+
+}
+.white{
+	color:#fff;
+}
+
+/*image in footer logo*/
+
+.logo-footer{;
+	width: 70%;
+	height:50%;
+	background-color: #fff;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+/*horzontal rule*/
+hr.light{
+	border-top: 1px solid #fff;
+	width:75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+hr.light-100{
+	border-top: 1px solid #fff;
+	width:100%;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.last{
+	padding-bottom: 10%;
+}
+.copyright{
+	margin-top: 2%;
+}
+/*social media*/
+
+.social a{
+	font-size: 4.5em;
+	padding: 3rem;
+
+}
+
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-twitter{
+	color: #00aced;
+}
+
+.fa-pinterest{
+	color: #C8232C;
+}
+
+.fa-instagram{
+	color: #517fa8;
+}
+
+.fa-youtube{
+	color: #bb0000;
+}
+
+/*hover social media*/
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-pinterest:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+	color:#d5d5d5;
+}
+
+/* the environment page*/
+
+
+.reading-c{
+	width:100%;
+	height: 50%;
+	
+	
+text-align: center;
+}
+
+/*env end*/
+
+
+/*background color for logo petals unique*/
+.navbar-brand{
+	background-color: #fff !important;
+}
+/*color of text in nav links*/
+.navbar-nav .nav-item .nav-link a{
+	color: #fff !important;
+	font-size: 2em !important;
+}
+
+.navbar-toggler{
+	color: #fff !important;
+}
+/*section for slogan on index page*/
+.slogan{
+
+	height: 120px;
+}
+
+/* first tagline on index page*/
+.tagline{
+	margin-top: 5%;
+	padding-left: 25%;
+	font-family: 'Libre Baskerville', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	color:#000;
+}
+
+.section-heading {
+	margin-top: 2%;
+	margin-left:2%;
+	padding top:10%;
+	margin-left: 12%;
+	font-weight: 200;
+	font-size: 2em;
+	color:#fff !important;
+	font-family: 'Libre Baskerville', sans-serif !important;
+
+}
+/*
+h3{  	
+margin-left: 45%;
+font-family: 'Libre Baskerville', sans-serif !important;
+font-weight: 200;
+font-size: 1.7em;
+padding-left: 2%;
+padding-right: 2%;
+color:#fff !important;
+background-color: #4C63AD;
+max-width: 500px;
+}
+*/
+
+.heading-layout{
+	background-color: #4C63AD;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	margin-top: 2%;
+	margin-bottom: 15%;
+	height: 80px;
+
+}
+
+
+/*image on index page for logo with values*/
+
+.image-logo-words{
+	width: 50%;
+	margin-left: 30%;
+	min-width: 30%;
+}
+
+/*
+carousel
+.carousel-item{
+padding-left:10%;
+padding-top:5%;
+padding-bottom:20%;
+}
+*/
+
+
+/* end*/
+
+@media (max-width: 992px){
+
+	.social a {
+		font-size: 4em;
+		padding: 2rem;
+
+	}	
+	
+	/*main home page carousel*/
+#main-carousel{
+	width:90%;
+	height:50%;
+	text-align: center;
+}
+
+
+	/*jumbotron*/
+
+	#main-tagline {
+		font-family: 'Pacifico', cursive !important;
+		color:#fff;
+		text-align: center;
+		font-size: 4.5rem !important;
+	}
+
+	#second-tagline {
+		font-family: 'Pacifico', cursive !important;
+		color:#000;
+		font-size: 2.8rem !important;
+		padding-left: 40%;
+	}
+	.jumbotron{
+		background-color: #4C63AD !important;
+		padding:1rem;
+		border-radius: 0.5;
+	}
+	
+	
+	
+	.lead{
+	font-family:'Merriweather', serif;
+	font-size: 1.5rem !important;
+	color: #2a2a2a !important;
+
+
+}
+	/*Two columns*/
+	
+/*	 for h2 and h3*/
+.ofsted{
+	font-family:'Merriweather', serif;
+	font-size: 2.5rem !important;
+	background-color:  #4C63AD !important;
+	color:#fff !important;
+	padding-left: 15% !important;
+	padding-right: 20% !important;
+	margin-bottom: 5% !important; 
+	margin-top: 5%;
+	text-align: center;
+	border-radius: 0.5 !important;
+
+
+}
+
+.p-ofsted{
+	font-family:'Merriweather', serif;
+	font-size: 1.2rem !important;
+	color:#2a2a2a !important;
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+
+
+
+}
+
+.ofsted-section{
+	padding-top: 2% !important;
+	padding-bottom:2% !important;
+
+}
+	
+	/*Two Column end*/
+
+/* services section*/
+
+
+.quality{
+	font-family:'Merriweather', serif;
+	color:#2a2a2a !important;
+	padding-top: 2% !important;
+	text-align: center;
+}
+
+.services
+{
+	background-color:  #4C63AD !important;
+	font-family:'Merriweather', serif;
+	font-size: 2.5rem !important;
+	background-color:  #4C63AD !important;
+	color:#fff !important;
+}
+
+/*Qualifications*/
+
+.p-qual{
+	font-family:'Merriweather', serif;
+	font-size: 1.2rem !important;
+	color:#2a2a2a !important;
+	padding-top: 0% !important;
+	padding-bottom: 2% !important;
+
+
+}
+
+
+.qual-section{
+	padding-top: 1% !important;
+	padding-bottom: 1% !important;
+}
+
+    .card{
+    
+    width: 18rem;
+    min-width: 10rem;
+    margin-bottom: 10% ;
+    height: 30rem;
+    
+}
+    .card-1{
+    
+    width: 25rem;
+    min-width: 10rem;
+    margin-bottom: 10% ;
+    height: 35rem;
+    
+}
+}
+
+@media (max-width: 768px){
+    
+    .card{
+    
+    width: 20rem !important;
+    min-width: 10rem;
+    margin-bottom: 10% ;
+        margin-left:20% !important;
+    height: 30rem;
+    
+}
+    
+    .card-1{
+    
+    width: 25rem;
+    min-width: 10rem;
+    margin-bottom: 10% ;
+         margin-left: 4% !important;
+        margin-right:14% !important;
+    height: 35rem;
+    
+}
+    
+
+	.display-4{
+		font-size:200%;
+
+	}
+
+	.social a {
+		font-size: 2.5em;
+		padding: 1.2rem;
+
+	}	
+
+	*main home page carousel*/
+#main-carousel{
+	width:100%;
+	height:80%;
+	text-align: center;
+}
+
+	/*jumbotron*/
+
+	#main-tagline {
+		font-family: 'Pacifico', cursive !important;
+		color:#fff;
+		text-align: center;
+		font-size: 2rem !important;
+	}
+
+	#second-tagline {
+		font-family: 'Pacifico', cursive !important;
+		color:#000;
+		font-size: 1.3rem !important;
+		padding-left: %;
+	}
+	.jumbotron{
+		background-color: #4C63AD !important;
+		
+		border-radius: 0.5;
+	}
+	
+	.lead{
+	font-family:'Merriweather', serif;
+	font-size: 1.3rem !important;
+	color: #2a2a2a !important;
+
+
+}
+	
+	/*Two columns*/
+	
+/*	 for h2 and h3*/
+.ofsted{
+	font-family:'Merriweather', serif;
+	font-size: 2rem !important;
+	background-color:  #4C63AD !important;
+	color:#fff !important;
+	padding-left: 15% !important;
+	padding-right: 20% !important;
+	margin-bottom: 5% !important; 
+	margin-top: 5%;
+	text-align: center;
+	border-radius: 0.5 !important;
+
+
+}
+
+.p-ofsted{
+	font-family:'Merriweather', serif;
+	font-size: 1rem !important;
+	color:#2a2a2a !important;
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+
+
+
+}
+
+.ofsted-section{
+	padding-top: 2% !important;
+	padding-bottom:2% !important;
+
+}
+
+	/*Two Column end*/
+
+/* services section*/
+
+
+.quality{
+	font-family:'Merriweather', serif;
+	color:#2a2a2a !important;
+	padding-top: 1% !important;
+	text-align: center;
+}
+
+.services
+{
+	background-color:  #4C63AD !important;
+	font-family:'Merriweather', serif;
+	font-size: 2rem !important;
+	background-color:  #4C63AD !important;
+	color:#fff !important;
+}
+
+/*Qualifications*/
+
+.p-qual{
+	font-family:'Merriweather', serif;
+	font-size: 1rem !important;
+	color:#2a2a2a !important;
+	padding-top: 0% !important;
+	padding-bottom: 2% !important;
+
+
+}
+
+
+.qual-section{
+	padding-top: 1% !important;
+	padding-bottom: 1% !important;
+}
+
+
+}
+
+@media (max-width: 576px){
+    
+    
+    .card{
+    
+    width: 20rem !important;
+    min-width: 10rem;
+    margin-bottom: 10% ;
+        margin-left:10% !important;
+    height: 30rem;
+    
+}
+    
+    .card-1{
+    
+    width: 20rem;
+    min-width: 10rem;
+    margin-bottom: 10% ;
+         margin-left: 4% !important;
+        margin-right:14% !important;
+    height: 35rem;
+    
+}
+
+	.carousel-indicators{
+		display:none;
+	}
+
+	.display-4{
+		font-size:160%;
+
+	}
+
+/*	*main home page carousel*/*/
+#main-carousel{
+	width:100%;
+	height:100%;
+	
+	text-align: center;
+}
+
+	jumbotron{
+
+		font-size:160%;
+
+
+	}
+	.social a {
+		font-size: 2em;
+		padding: .7rem;
+
+	}
+
+	#main-tagline {
+		font-family: 'Pacifico', cursive !important;
+		color:#fff;
+		text-align: center;
+		font-size: 2.5rem !important;
+	}
+
+	#second-tagline {
+		font-family: 'Pacifico', cursive !important;
+		color:#000;
+		font-size: 1.7rem !important;
+		padding-left: 10%;
+	}
+	.jumbotron{
+		background-color: #4C63AD !important;
+		padding: 0.25 rem;
+		border-radius: 0.5;
+	}
+
+	/*Two Column end*/
+
+/* services section*/
+
+
+.quality{
+	font-family:'Merriweather', serif;
+	color:#2a2a2a !important;
+	padding-top: .5% !important;
+	text-align: center;
+}
+
+.services
+{
+	background-color:  #4C63AD !important;
+	font-family:'Merriweather', serif;
+	font-size: 2.5rem !important;
+	background-color:  #4C63AD !important;
+	color:#fff !important;
+}
+
+/*Qualifications*/
+
+.p-qual{
+	font-family:'Merriweather', serif;
+	font-size: 1.7rem !important;
+	color:#2a2a2a !important;
+	padding-top: 0% !important;
+	padding-bottom: 2% !important;
+
+
+}
+
+
+.qual-section{
+	padding-top: 1% !important;
+	padding-bottom: 1% !important;
+}
+
+	.lead{
+	font-family:'Merriweather', serif;
+	font-size: 1.3rem !important;
+	color: #2a2a2a !important;
+
+
+}
+}

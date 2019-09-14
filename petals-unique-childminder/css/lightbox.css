@@ -1,0 +1,29 @@
+.gallery-light{
+    margin: 10px 50px;   
+}
+
+.gallery-light img {
+    transition: 1s;
+    width: 100%;   
+}
+
+.gallery-light img:hover{
+
+    transform:scalex(1.1)
+}
+
+/*media queries*/
+@media (max-width: 576px){
+    
+    .gallery-light img{
+  padding-top:2%;
+        padding-bottom: 2%;
+   
+}
+    
+    .gallery-light img:hover{
+  padding-top:2%;
+        padding-bottom: 2%;
+    transform:scalex(1.1)
+}
+}

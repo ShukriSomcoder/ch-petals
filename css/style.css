@@ -62,17 +62,11 @@ html, body{
     min-width: 10rem;
     margin-bottom: 10% ;
     height: 30rem;
+    padding-top: 1%; 
     
 }
 
-.card-1{
-    
-    width: 20rem !important;
-    min-width: 10rem;
-    margin-bottom: 10% ;
-    height: 35rem;
-    
-}
+
 .card:hover{
     -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
@@ -299,6 +293,7 @@ html, body{
 	color:#2a2a2a !important;
 	padding-top: 0% !important;
 	padding-bottom: 2% !important;
+    text-align: justify;
 
 
 }
@@ -487,6 +482,19 @@ max-width: 500px;
 	min-width: 30%;
 }
 
+
+
+.profile{
+    border-radius: 50%;
+    width:300px;
+    height: auto;
+   margin-left: 35%;
+    margin-bottom: 5%;
+    
+}
+
+
+
 /*
 carousel
 .carousel-item{
@@ -609,6 +617,7 @@ padding-bottom:20%;
 	color:#2a2a2a !important;
 	padding-top: 0% !important;
 	padding-bottom: 2% !important;
+    text-align: justify;
 
 
 }
@@ -625,16 +634,18 @@ padding-bottom:20%;
     min-width: 10rem;
     margin-bottom: 10% ;
     height: 30rem;
+    padding-top: 1%; 
     
 }
-    .card-1{
-    
-    width: 25rem;
-    min-width: 10rem;
-    margin-bottom: 10% ;
-    height: 35rem;
+    .profile{
+    border-radius: 50%;
+    width:300px;
+    height: auto;
+   margin-left: 35%;
+    margin-bottom: 5%;
     
 }
+
 }
 
 @media (max-width: 768px){
@@ -651,20 +662,12 @@ padding-bottom:20%;
     margin-bottom: 5% ;
     margin-left: 1% !important;
    margin-right:2% !important;
-    height: 35rem;
+    height: 30rem;
+      padding-top: 1%;
     
 }
     
-    .card-1{
-    
-    width: 18rem;
-    min-width: 10rem;
-    margin-bottom: 5% ;
-   margin-left: 1% !important;
-   margin-right:2% !important;
-    height: 35rem;
-    
-} 
+   
 
 	.display-4{
 		font-size:200%;
@@ -709,6 +712,8 @@ padding-bottom:20%;
 	font-family:'Merriweather', serif;
 	font-size: 1.3rem !important;
 	color: #2a2a2a !important;
+        padding-top: 1% !important;
+	padding-bottom: 2% !important;
 
 
 }
@@ -721,8 +726,8 @@ padding-bottom:20%;
 	font-size: 2rem !important;
 	background-color:  #4C63AD !important;
 	color:#fff !important;
-	padding-left: 15% !important;
-	padding-right: 20% !important;
+	padding-left: 8% !important;
+	padding-right: 8% !important;
 	margin-bottom: 5% !important; 
 	margin-top: 5%;
 	text-align: center;
@@ -767,7 +772,9 @@ padding-bottom:20%;
 	font-size: 2rem !important;
 	background-color:  #4C63AD !important;
 	color:#fff !important;
+    text-align: center;
 }
+    
 
 /*Qualifications*/
 
@@ -777,7 +784,7 @@ padding-bottom:20%;
 	color:#2a2a2a !important;
 	padding-top: 0% !important;
 	padding-bottom: 2% !important;
-
+    text-align: justify;
 
 }
 
@@ -796,15 +803,15 @@ padding-bottom:20%;
     height: 30rem;
     
 }
-
-.card-1{
-    
-    width: 18rem !important;
-    min-width: 10rem;
-    margin-bottom: 10% ;
-    height: 35rem;
+.profile{
+    border-radius: 50%;
+    width:300px;
+    height: auto;
+   margin-left: 25%;
+    margin-bottom: 5%;
     
 }
+
 }
 
 @media (max-width: 576px){
@@ -820,23 +827,14 @@ padding-bottom:20%;
      width: 18rem;
     min-width: 10rem;
     margin-bottom: 5% ;
-         margin-left: 0% !important;
-        margin-right:0% !important;
-    height: 35rem;
+         margin-left: 18% !important;
+        margin-right:2% !important;
+    height: 30rem;
+        padding-top:1%;
     
 }
     
-    .card-1{
-    
-    width: 18rem;
-    min-width: 10rem;
-    margin-bottom: 5% ;
-         margin-left: 0% !important;
-        margin-right:0% !important;
-    height: 35rem;
-    
-}
-
+   
 	.carousel-indicators{
 		display:none;
 	}
@@ -903,17 +901,18 @@ padding-bottom:20%;
 	font-family:'Merriweather', serif;
 	font-size: 1.9rem !important;
 	color:#fff !important;
+    text-align: center;
 }
 
 /*Qualifications*/
 
 .p-qual{
 	font-family:'Merriweather', serif;
-	font-size: 1.5rem !important;
+	font-size: 1.rem !important;
 	color:#2a2a2a !important;
 	padding-top: 1% !important;
 	padding-bottom: 2% !important;
-    text-align: center;
+    text-align: justify;
 
 }
 
@@ -925,12 +924,102 @@ padding-bottom:20%;
 
 	.lead{
 	font-family:'Merriweather', serif;
-	font-size: 1.3rem !important;
+	font-size: 1.2rem !important;
 	color: #2a2a2a !important;
+    text-align: justify;
+    padding-top: 1% !important;
+	padding-bottom: 2% !important;
+
+}
+    .profile{
+    border-radius: 50%;
+    width:300px;
+    height: auto;
+   margin-left: 20%;
+    margin-bottom: 5%;
+    
+}
+
+}
+
+@media (max-width: 440px){
+    .card{
+    
+     width: 17rem;
+    min-width: 7rem;
+    margin-bottom: 5% ;
+         margin-left: 12% !important;
+        margin-right:0% !important;
+    height: 29rem;
+          align-content: center;
+        padding-top: 1%;
+    
+}
+   .ofsted{
+	font-family:'Merriweather', serif;
+	font-size: 1.8rem !important;
+	background-color:  #4C63AD !important;
+	color:#fff !important;
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+	margin-bottom: 5% !important; 
+	margin-top: 5%;
+	text-align: center;
+	border-radius: 0.5 !important;
 
 
 }
+     .profile{
+    border-radius: 50%;
+    width:200px;
+    height: auto;
+   margin-left: 20%;
+    margin-bottom: 5%;
+    
 }
+
+    
+}
+
+@media (max-width: 375px){
+
+.card{
+    
+     width: 17rem;
+    min-width: 7rem;
+    margin-bottom: 5% ;
+         margin-left: 8% !important;
+        margin-right:0% !important;
+    height: 29rem;
+          align-content: center;
+        padding-top: 1%;
+    
+}
+.ofsted{
+	font-family:'Merriweather', serif;
+	font-size: 1.6rem !important;
+	background-color:  #4C63AD !important;
+	color:#fff !important;
+	padding-left: 8% !important;
+	padding-right: 8% !important;
+	margin-bottom: 5% !important; 
+	margin-top: 5%;
+	text-align: center;
+	border-radius: 0.5 !important;
+
+
+}
+     .profile{
+    border-radius: 50%;
+    width:200px;
+    height: auto;
+   margin-left: 19%;
+    margin-bottom: 5%;
+    
+}
+
+}
+    
 @media (max-width: 350px){
     
     
@@ -947,29 +1036,20 @@ padding-bottom:20%;
     margin-bottom: 5% ;
          margin-left: 0% !important;
         margin-right:0% !important;
-    height: 32rem;
+    height: 29rem;
           align-content: center;
+        padding-top: 1%;
     
 }
     
-    .card-1{
     
-     width: 17rem;
-    min-width: 7rem;
-    margin-bottom: 5% ;
-         margin-left: 0% !important;
-        margin-right:0% !important;
-    height: 32rem;
-        align-content: center;
-    
-}
 
 	.carousel-indicators{
 		display:none;
 	}
 
 	.display-4{
-		font-size:160%;
+		font-size:50%;
 
 	}
 
@@ -997,14 +1077,15 @@ padding-bottom:20%;
 		font-family: 'Pacifico', cursive !important;
 		color:#fff;
 		text-align: center;
-		font-size: 2.5rem !important;
+		font-size: 2.rem !important;
 	}
 
 	#second-tagline {
 		font-family: 'Pacifico', cursive !important;
 		color:#000;
-		font-size: 1.7rem !important;
-		padding-left: 10%;
+		font-size: 1.rem !important;
+		padding-left: 0%;
+        text-align: center;
 	}
 	.jumbotron{
 		background-color: #4C63AD !important;
@@ -1030,20 +1111,22 @@ padding-bottom:20%;
 	font-family:'Merriweather', serif;
 	font-size: 1.9rem !important;
 	color:#fff !important;
+    text-align: center;
 }
 
 /*Qualifications*/
 
 .p-qual{
 	font-family:'Merriweather', serif;
-	font-size: 1.5rem !important;
+	font-size: 1rem !important;
 	color:#2a2a2a !important;
 	padding-top: 1% !important;
-	padding-bottom: 2% !important;
-    text-align: center;
+	padding-bottom: 1% !important;
+    text-align: justify;
 
 }
 
+ 
 
 .qual-section{
 	padding-top: 1% !important;
@@ -1052,9 +1135,21 @@ padding-bottom:20%;
 
 	.lead{
 	font-family:'Merriweather', serif;
-	font-size: 1.3rem !important;
+	font-size: 1.1rem !important;
 	color: #2a2a2a !important;
+    text-align: justify;
+    padding-top: 1% !important;
+	padding-bottom: 2% !important;
 
 
 }
+     .profile{
+    border-radius: 50%;
+    width:200px;
+    height: auto;
+   margin-left: 17%;
+    margin-bottom: 5%;
+    
+}
+    
 }
